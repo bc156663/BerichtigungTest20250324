@@ -11,9 +11,19 @@ Am Ende müssen Sie Ihr Projekt commiten und pushen. Senden Sie mir den Link in 
 
 Beantworten Sie die folgenden Frage hier direkt im Text: Welche Aufgabe haben cookies in unserer Banking-App?
 
+- Die Benutzerdaten des Kunden werden im cookie gespeichert. 
+- Der Grund dafür kann sein, dass die Einstellungen (Z.B. Sprache) bei der
+  erneuten Anmeldung noch vorhanden sind.
+- Es können nur dann mehrere Kunden gleichzeitig auf dem Server arbeiten,
+  wenn die Kundendaten im cookie gespeichert sind. Bei jedem Aufruf des Servers
+  werdendie Kundendaten vom Browser an den Server übergeben.
+- Die cookies werden gelöscht, wenn der Kunde sich von der App abmeldet.
+
 ## Aufgabe 3
 
 Auf der Seite Hilfe sind vier Fehler eingebaut. Finden und korrigieren Sie die Fehler. Schreiben Sie zu jedem Fehler eine Kommentarzeile, in der Sie schreiben, was Sie korrigiert haben.
+
+
 
 ## Aufgabe 4
 
